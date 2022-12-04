@@ -25,8 +25,8 @@ function App() {
 
   return (
     <>
-      <div className={styles.topBackground}></div>
       <main className={styles.characterEditor}>
+        <div className={styles.topBackground}></div>
         <MaxWidthWrapper className={styles.maxWidthWrapper}>
           <header className={styles.header}>
             <h1 className={styles.title}>Create your Character</h1>
